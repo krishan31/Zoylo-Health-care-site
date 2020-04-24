@@ -1,0 +1,168 @@
+/* ==============================================
+Resets
+============================================== */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ==============================================
+General Styles
+============================================== */
+
+body {
+	background: #ffffff;
+	font-size: 13px;
+	line-height: 24px;
+	color: #191919;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+
+h1 {
+	font-family: 'Shanti', Arial, sans-serif;
+	font-size: 50px;
+	line-height: 50px;
+	margin-bottom: 20px;
+	color: #333333;
+}
+
+h2 {
+	font-family: 'Roboto Condensed', Arial, sans-serif;
+	color: #00b3ff;
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 300;
+	width: 70%;
+}
+
+a {
+	color: #666666;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #999999;
+	text-decoration: none;
+}
+
+p {
+	padding-bottom: 20px;
+}
+
+p span {
+	color: #00b3ff;
+}
+
+/* ==============================================
+Header
+============================================== */
+
+section.header {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: white;
+	-webkit-transition: background linear .2s;
+	-moz-transition: background linear .2s;
+	-o-transition: background linear .2s;
+}
+
+section.header h2 {
+	-webkit-transition: color linear .2s;
+	-moz-transition: color linear .2s;
+	-o-transition: color linear .2s;
+}
+
+
+/* ==============================================
+Templates
+============================================== */
+
+section.templates {
+	padding-top: 0px;
+	background: #ffffff;
+	padding-bottom: 50px;
+	-webkit-transition: background linear .2s;
+	-moz-transition: background linear .2s;
+	-o-transition: background linear .2s;
+}
+
+section.templates .span4 {
+	text-align: center !important;
+}
+
+section.templates .span4 a {
+	display: block;
+	background: #ffffff;
+	-webkit-transition: background linear .2s;
+	-moz-transition: background linear .2s;
+	-o-transition: background linear .2s;
+	-webkit-border-radius: 10px; 
+	-moz-border-radius: 10px; 
+	-o-border-radius: 10px; 
+	border-radius: 10px;
+	color: #333333;
+}
+
+section.templates .span4 a:hover {
+	background: #f1f1f1;
+}
+
+section.templates p {
+	margin-top: -40px;
+	font-size: 22px;
+	font-family: 'Roboto Condensed', Arial, sans-serif;
+	font-weight: 300;
+}
+
+/* ==============================================
+Footer
+============================================== */
+
+.footer {
+	background: #ffffff;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	border-top: 1px solid #f2f2f2;
+}
